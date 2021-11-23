@@ -1,0 +1,77 @@
+<html>
+	<head>	
+	
+	<meta name= "viewport" content= "width=device-width, initial-scale=1" >
+
+		<script>
+		</script>
+	</head>
+	<body>
+<div  id="da">   <h2>ID CARD GENARETOR</h2>
+<form action="testy.php" enctype ="multipart/form-data" method="post"   id="form" >
+<table>
+<b>
+Name: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;<input type="text" class="fild" name="name"required><br>
+Father: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" class="fild" name="father"required><br>
+Roll:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="number" class="fild" name="roll"required><br>
+Department: &nbsp;&nbsp;<select id="department" class="fild" name="department">
+  <option value="Management">Management</option>
+  <option value="Accounting">Accounting</option>
+  <option value="Finance">Finance</option>
+  <option value="Marketing">Marketing</option>
+</select><br>
+Session:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <select id="session" class="fild" name="session" required>
+  <option value="2019-20">2019-20</option>
+  <option value="2018-19">2018-19</option>
+  <option value="2020-21">2020-21</option>
+</select><br>
+		
+Select Image:
+&nbsp;	<input type ="file" class="fild" name ="file" accept="image/*" required>
+			</div>
+		<br>
+ <br>
+ 	
+	
+<button type ="submit" name="submit" >upload</button>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+<input type="reset" margin-left:50px;>
+	</b>
+ 	</form>
+
+<style>#da{
+  
+
+background-color:#ccffff;
+padding-left:4px;
+padding-top: 25px ;
+border-radius: 10px ;
+padding: 30px ;
+margin:30px;
+margin-right:30px;
+}
+
+.fild {
+height:30px;
+width:150px;
+border-radius:10px;
+}
+
+
+body{
+width: 400px;
+height: auto;
+
+
+background-color:#5aa;
+
+
+
+}
+</style>
+	</body>
+</html>
